@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Multimedia Document</title>
+    <style>
+        details {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .media-box {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #eee;
+        }
+        img, video, audio {
+            max-width: 100%;
+            margin-bottom: 5px;
+        }
+        .download {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning Resources</h1>
+
+    <!-- Section 1 -->
+    <details>
+        <summary>HTML Basics</summary>
+        <div class="media-box">
+            <h3>Image</h3>
+            <img src="./htmlimagenew" alt="HTML Basics" width="300">
+            <a href="./htmlimagenew" class="download" download="html-basics.jpg">Download Image</a>
+
+            <h3>Video</h3>
+            <video width="300" controls>
+                <source src="./videoplayback.mp4" type="video/mp4">
+            </video>
+            <a href="./videoplayback.mp4" class="download" download="html-tutorial.mp4">Download Video</a>
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="./hollywood-movie-trailer-sound-339082.mp3" type="audio/mpeg">
+            </audio>
+            <a href="./hollywood-movie-trailer-sound-339082.mp3" class="download" download="html-lesson.mp3">Download Audio</a>
+        </div>
+    </details>
+
+    <!-- Section 2 -->
+    <details>
+        <summary>CSS Fundamentals</summary>
+        <div class="media-box">
+            <h3>Image</h3>
+            <img src="./cssimagenew" alt="CSS Fundamentals" width="300">
+            <a href="./cssimagenew" class="download" download="css-fundamentals.jpg">Download Image</a>
+
+            <h3>Video</h3>
+            <video width="300" controls>
+                <source src="./videoplayback (1).mp4" type="video/mp4">
+            </video>
+            <a href="./videoplayback (1).mp4" class="download" download="css-tutorial.mp4">Download Video</a>
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="./hollywood-movie-trailer-sound-339082.mp3" type="audio/mpeg">
+            </audio>
+            <a href="./hollywood-movie-trailer-sound-339082.mp3" class="download" download="css-lesson.mp3">Download Audio</a>
+        </div>
+    </details>
+
+    <!-- Section 3 -->
+    <details>
+        <summary>JavaScript Introduction</summary>
+        <div class="media-box">
+            <h3>Image</h3>
+            <img src="./javaimagenew" alt="JavaScript Intro" width="300">
+            <a href="./javaimagenew" class="download" download="javascript-intro.jpg">Download Image</a>
+
+            <h3>Video</h3>
+            <video width="300" controls>
+                <source src="./videoplayback (2).mp4" type="video/mp4">
+            </video>
+            <a href="./videoplayback (2).mp4" class="download" download="js-tutorial.mp4">Download Video</a>
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="./hollywood-movie-trailer-sound-339082.mp3" type="audio/mpeg">
+            </audio>
+            <a href="./hollywood-movie-trailer-sound-339082.mp3" class="download" download="js-lesson.mp3">Download Audio</a>
+        </div>
+    </details>
+</body>
+</html>
